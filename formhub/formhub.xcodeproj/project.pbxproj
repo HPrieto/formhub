@@ -34,6 +34,26 @@
 		4342829D26C63FF600340DB8 /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4342827B26C63FF600340DB8 /* Encodable+Extensions.swift */; };
 		4342829E26C63FF600340DB8 /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4342827C26C63FF600340DB8 /* UICollectionViewCell+Extensions.swift */; };
 		4342829F26C63FF600340DB8 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4342827D26C63FF600340DB8 /* CGFloat+Extensions.swift */; };
+		434282A626C641EA00340DB8 /* CGImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282A426C641E900340DB8 /* CGImage+Extension.swift */; };
+		434282A926C6459900340DB8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282A826C6459900340DB8 /* CameraView.swift */; };
+		434282AB26C645CA00340DB8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282AA26C645CA00340DB8 /* CameraViewController.swift */; };
+		434282AD26C6464C00340DB8 /* HandGestureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282AC26C6464C00340DB8 /* HandGestureProcessor.swift */; };
+		434282B026C8352F00340DB8 /* PoseBuilderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282AF26C8352F00340DB8 /* PoseBuilderConfiguration.swift */; };
+		434282B626C8370700340DB8 /* PoseNetMobileNet075S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 434282B226C8370600340DB8 /* PoseNetMobileNet075S16FP16.mlmodel */; };
+		434282B726C8370700340DB8 /* PoseNetOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282B326C8370600340DB8 /* PoseNetOutput.swift */; };
+		434282B826C8370700340DB8 /* PoseNetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282B426C8370600340DB8 /* PoseNetInput.swift */; };
+		434282B926C8370700340DB8 /* PoseNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282B526C8370700340DB8 /* PoseNet.swift */; };
+		434282BF26C8371D00340DB8 /* Joint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282BA26C8371D00340DB8 /* Joint.swift */; };
+		434282C026C8371D00340DB8 /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282BB26C8371D00340DB8 /* Pose.swift */; };
+		434282C126C8371D00340DB8 /* PoseBuilder+Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282BC26C8371D00340DB8 /* PoseBuilder+Single.swift */; };
+		434282C226C8371D00340DB8 /* PoseBuilder+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282BD26C8371D00340DB8 /* PoseBuilder+Multiple.swift */; };
+		434282C326C8371D00340DB8 /* PoseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282BE26C8371D00340DB8 /* PoseBuilder.swift */; };
+		434282C526C8373C00340DB8 /* AVCaptureVideoOrientation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282C426C8373C00340DB8 /* AVCaptureVideoOrientation+Extension.swift */; };
+		434282C726C8374400340DB8 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282C626C8374400340DB8 /* VideoCapture.swift */; };
+		434282C926C837C300340DB8 /* PoseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282C826C837C300340DB8 /* PoseImageView.swift */; };
+		434282CB26C837D900340DB8 /* PoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282CA26C837D900340DB8 /* PoseViewController.swift */; };
+		434282CD26C8383A00340DB8 /* PopOverModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282CC26C8383A00340DB8 /* PopOverModalViewController.swift */; };
+		434282CF26C838D700340DB8 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434282CE26C838D700340DB8 /* CGPoint+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +107,26 @@
 		4342827B26C63FF600340DB8 /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
 		4342827C26C63FF600340DB8 /* UICollectionViewCell+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extensions.swift"; sourceTree = "<group>"; };
 		4342827D26C63FF600340DB8 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		434282A426C641E900340DB8 /* CGImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+Extension.swift"; sourceTree = "<group>"; };
+		434282A826C6459900340DB8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		434282AA26C645CA00340DB8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		434282AC26C6464C00340DB8 /* HandGestureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureProcessor.swift; sourceTree = "<group>"; };
+		434282AF26C8352F00340DB8 /* PoseBuilderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseBuilderConfiguration.swift; sourceTree = "<group>"; };
+		434282B226C8370600340DB8 /* PoseNetMobileNet075S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet075S16FP16.mlmodel; sourceTree = "<group>"; };
+		434282B326C8370600340DB8 /* PoseNetOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNetOutput.swift; sourceTree = "<group>"; };
+		434282B426C8370600340DB8 /* PoseNetInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNetInput.swift; sourceTree = "<group>"; };
+		434282B526C8370700340DB8 /* PoseNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNet.swift; sourceTree = "<group>"; };
+		434282BA26C8371D00340DB8 /* Joint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
+		434282BB26C8371D00340DB8 /* Pose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		434282BC26C8371D00340DB8 /* PoseBuilder+Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Single.swift"; sourceTree = "<group>"; };
+		434282BD26C8371D00340DB8 /* PoseBuilder+Multiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Multiple.swift"; sourceTree = "<group>"; };
+		434282BE26C8371D00340DB8 /* PoseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseBuilder.swift; sourceTree = "<group>"; };
+		434282C426C8373C00340DB8 /* AVCaptureVideoOrientation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+Extension.swift"; sourceTree = "<group>"; };
+		434282C626C8374400340DB8 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		434282C826C837C300340DB8 /* PoseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseImageView.swift; sourceTree = "<group>"; };
+		434282CA26C837D900340DB8 /* PoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseViewController.swift; sourceTree = "<group>"; };
+		434282CC26C8383A00340DB8 /* PopOverModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverModalViewController.swift; sourceTree = "<group>"; };
+		434282CE26C838D700340DB8 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +211,10 @@
 		4342825A26C63FF600340DB8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				434282B126C836EF00340DB8 /* Model */,
+				434282AE26C8351D00340DB8 /* Pose */,
 				4342825B26C63FF600340DB8 /* Coordinators */,
-				4342826A26C63FF600340DB8 /* Util */,
+				4342826A26C63FF600340DB8 /* Utils */,
 				4342826E26C63FF600340DB8 /* Networking */,
 				4342827426C63FF600340DB8 /* Extensions */,
 				4342827E26C63FF600340DB8 /* ViewControllers */,
@@ -189,14 +231,16 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		4342826A26C63FF600340DB8 /* Util */ = {
+		4342826A26C63FF600340DB8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				434282C626C8374400340DB8 /* VideoCapture.swift */,
 				4342826B26C63FF600340DB8 /* JSON.swift */,
 				4342826C26C63FF600340DB8 /* HttpMethod.swift */,
 				4342826D26C63FF600340DB8 /* Endpoint.swift */,
+				434282AC26C6464C00340DB8 /* HandGestureProcessor.swift */,
 			);
-			path = Util;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		4342826E26C63FF600340DB8 /* Networking */ = {
@@ -214,6 +258,9 @@
 		4342827426C63FF600340DB8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				434282CE26C838D700340DB8 /* CGPoint+Extension.swift */,
+				434282C426C8373C00340DB8 /* AVCaptureVideoOrientation+Extension.swift */,
+				434282A426C641E900340DB8 /* CGImage+Extension.swift */,
 				4342827526C63FF600340DB8 /* UIImageView+Extensions.swift */,
 				4342827626C63FF600340DB8 /* UIFont+Extensions.swift */,
 				4342827726C63FF600340DB8 /* NSMutableAttributedString+Extensions.swift */,
@@ -230,6 +277,9 @@
 		4342827E26C63FF600340DB8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				434282AA26C645CA00340DB8 /* CameraViewController.swift */,
+				434282CA26C837D900340DB8 /* PoseViewController.swift */,
+				434282CC26C8383A00340DB8 /* PopOverModalViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -237,8 +287,34 @@
 		4342828126C63FF600340DB8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				434282C826C837C300340DB8 /* PoseImageView.swift */,
+				434282A826C6459900340DB8 /* CameraView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		434282AE26C8351D00340DB8 /* Pose */ = {
+			isa = PBXGroup;
+			children = (
+				434282AF26C8352F00340DB8 /* PoseBuilderConfiguration.swift */,
+				434282BA26C8371D00340DB8 /* Joint.swift */,
+				434282BB26C8371D00340DB8 /* Pose.swift */,
+				434282BE26C8371D00340DB8 /* PoseBuilder.swift */,
+				434282BD26C8371D00340DB8 /* PoseBuilder+Multiple.swift */,
+				434282BC26C8371D00340DB8 /* PoseBuilder+Single.swift */,
+			);
+			path = Pose;
+			sourceTree = "<group>";
+		};
+		434282B126C836EF00340DB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				434282B526C8370700340DB8 /* PoseNet.swift */,
+				434282B426C8370600340DB8 /* PoseNetInput.swift */,
+				434282B226C8370600340DB8 /* PoseNetMobileNet075S16FP16.mlmodel */,
+				434282B326C8370600340DB8 /* PoseNetOutput.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,25 +449,45 @@
 			files = (
 				4342822C26C63F6F00340DB8 /* ViewController.swift in Sources */,
 				4342822826C63F6F00340DB8 /* AppDelegate.swift in Sources */,
+				434282C926C837C300340DB8 /* PoseImageView.swift in Sources */,
+				434282A626C641EA00340DB8 /* CGImage+Extension.swift in Sources */,
 				4342829B26C63FF600340DB8 /* UIImage+Extensions.swift in Sources */,
 				4342829426C63FF600340DB8 /* NetworkManager.swift in Sources */,
+				434282C526C8373C00340DB8 /* AVCaptureVideoOrientation+Extension.swift in Sources */,
 				4342829D26C63FF600340DB8 /* Encodable+Extensions.swift in Sources */,
+				434282B626C8370700340DB8 /* PoseNetMobileNet075S16FP16.mlmodel in Sources */,
+				434282C226C8371D00340DB8 /* PoseBuilder+Multiple.swift in Sources */,
 				4342829726C63FF600340DB8 /* UIImageView+Extensions.swift in Sources */,
+				434282AD26C6464C00340DB8 /* HandGestureProcessor.swift in Sources */,
 				4342829326C63FF600340DB8 /* NetworkServiceError.swift in Sources */,
+				434282BF26C8371D00340DB8 /* Joint.swift in Sources */,
 				4342829626C63FF600340DB8 /* APIResponse.swift in Sources */,
+				434282B926C8370700340DB8 /* PoseNet.swift in Sources */,
 				4342822A26C63F6F00340DB8 /* SceneDelegate.swift in Sources */,
+				434282C726C8374400340DB8 /* VideoCapture.swift in Sources */,
 				4342828426C63FF600340DB8 /* MainCoordinator.swift in Sources */,
 				4342829F26C63FF600340DB8 /* CGFloat+Extensions.swift in Sources */,
 				4342829226C63FF600340DB8 /* APIError.swift in Sources */,
 				4342829826C63FF600340DB8 /* UIFont+Extensions.swift in Sources */,
 				4342829026C63FF600340DB8 /* HttpMethod.swift in Sources */,
+				434282A926C6459900340DB8 /* CameraView.swift in Sources */,
+				434282AB26C645CA00340DB8 /* CameraViewController.swift in Sources */,
+				434282CB26C837D900340DB8 /* PoseViewController.swift in Sources */,
 				4342829126C63FF600340DB8 /* Endpoint.swift in Sources */,
+				434282C126C8371D00340DB8 /* PoseBuilder+Single.swift in Sources */,
 				4342829926C63FF600340DB8 /* NSMutableAttributedString+Extensions.swift in Sources */,
 				4342829C26C63FF600340DB8 /* NSAttributedString+Extensions.swift in Sources */,
 				4342823226C63F6F00340DB8 /* formhub.xcdatamodeld in Sources */,
+				434282B726C8370700340DB8 /* PoseNetOutput.swift in Sources */,
+				434282CF26C838D700340DB8 /* CGPoint+Extension.swift in Sources */,
 				4342829526C63FF600340DB8 /* NetworkServiceResponseError.swift in Sources */,
 				4342829A26C63FF600340DB8 /* UIColor+Extensions.swift in Sources */,
+				434282B026C8352F00340DB8 /* PoseBuilderConfiguration.swift in Sources */,
+				434282B826C8370700340DB8 /* PoseNetInput.swift in Sources */,
+				434282C026C8371D00340DB8 /* Pose.swift in Sources */,
 				4342829E26C63FF600340DB8 /* UICollectionViewCell+Extensions.swift in Sources */,
+				434282C326C8371D00340DB8 /* PoseBuilder.swift in Sources */,
+				434282CD26C8383A00340DB8 /* PopOverModalViewController.swift in Sources */,
 				4342828F26C63FF600340DB8 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,13 +665,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D593847M3E;
+				DEVELOPMENT_TEAM = ZDT7468M9V;
 				INFOPLIST_FILE = formhub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hprieto.nftmarket.formhub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hprieto.formhub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,13 +684,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D593847M3E;
+				DEVELOPMENT_TEAM = ZDT7468M9V;
 				INFOPLIST_FILE = formhub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hprieto.nftmarket.formhub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hprieto.formhub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -65,9 +65,13 @@ class MainCoordinator {
     
     // MARK: - ViewControllers
     
-    private(set) lazy var homeViewController: UIViewController = {
-        let controller = UIViewController()
+    private(set) lazy var cameraViewController: CameraViewController = {
+        let controller = CameraViewController()
         return controller
+    }()
+    
+    private(set) lazy var poseViewController: PoseViewController = {
+        PoseViewController()
     }()
     
     // MARK: - Private Methods
@@ -77,7 +81,7 @@ class MainCoordinator {
         
         switch destination {
         case .root:
-            viewController = homeViewController
+            viewController = poseViewController
         }
         
         return viewController
